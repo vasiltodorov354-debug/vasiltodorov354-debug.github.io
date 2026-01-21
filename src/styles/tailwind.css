@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+input,
+textarea,
+button,
+select {
+  font: inherit;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #303645;
+  border-radius: 999px;
+}
+
+.gradient-header {
+  background: linear-gradient(120deg, #1b1f2a 0%, #2b1f4b 50%, #111827 100%);
+}
