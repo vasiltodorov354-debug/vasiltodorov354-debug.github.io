@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="bg">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="refresh" content="0; url=./" />
+    <script>
+      const path = window.location.pathname;
+      const redirect = path.includes('/#/') ? path : `/#${path}`;
+      window.location.replace(redirect);
+    </script>
+  </head>
+  <body></body>
+</html>
